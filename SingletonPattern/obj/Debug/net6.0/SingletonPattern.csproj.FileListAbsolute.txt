@@ -1,0 +1,15 @@
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\bin\Debug\net6.0\SingletonPattern.exe
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\bin\Debug\net6.0\SingletonPattern.deps.json
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\bin\Debug\net6.0\SingletonPattern.runtimeconfig.json
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\bin\Debug\net6.0\SingletonPattern.dll
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\bin\Debug\net6.0\SingletonPattern.pdb
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.csproj.AssemblyReference.cache
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.AssemblyInfoInputs.cache
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.AssemblyInfo.cs
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.csproj.CoreCompileInputs.cache
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.dll
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\refint\SingletonPattern.dll
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.pdb
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\SingletonPattern.genruntimeconfig.cache
+D:\Git\HeadFirstDesignPatterns\SingletonPattern\obj\Debug\net6.0\ref\SingletonPattern.dll

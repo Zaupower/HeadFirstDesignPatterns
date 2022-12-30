@@ -1,0 +1,15 @@
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\bin\Debug\net6.0\FactoryPattern.exe
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\bin\Debug\net6.0\FactoryPattern.deps.json
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\bin\Debug\net6.0\FactoryPattern.runtimeconfig.json
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\bin\Debug\net6.0\FactoryPattern.dll
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\bin\Debug\net6.0\FactoryPattern.pdb
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.csproj.AssemblyReference.cache
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.AssemblyInfoInputs.cache
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.AssemblyInfo.cs
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.csproj.CoreCompileInputs.cache
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.dll
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\refint\FactoryPattern.dll
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.pdb
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\FactoryPattern.genruntimeconfig.cache
+D:\Git\HeadFirstDesignPatterns\FactoryPattern\obj\Debug\net6.0\ref\FactoryPattern.dll

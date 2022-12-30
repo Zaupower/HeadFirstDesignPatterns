@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SimUDuck/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SimUDuck.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimUDuck.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SimUDuck/1.0.0": {
+      "type": "project",
+      "path": "../SimUDuck/SimUDuck.csproj",
+      "msbuildProject": "../SimUDuck/SimUDuck.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SimUDuck >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\marce\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\SimUDuck.csproj": {
+              "projectPath": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\SimUDuck.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

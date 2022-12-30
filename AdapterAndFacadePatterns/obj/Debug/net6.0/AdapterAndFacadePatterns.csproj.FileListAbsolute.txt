@@ -1,0 +1,15 @@
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\bin\Debug\net6.0\AdapterAndFacadePatterns.exe
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\bin\Debug\net6.0\AdapterAndFacadePatterns.deps.json
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\bin\Debug\net6.0\AdapterAndFacadePatterns.runtimeconfig.json
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\bin\Debug\net6.0\AdapterAndFacadePatterns.dll
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\bin\Debug\net6.0\AdapterAndFacadePatterns.pdb
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.csproj.AssemblyReference.cache
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.AssemblyInfoInputs.cache
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.AssemblyInfo.cs
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.csproj.CoreCompileInputs.cache
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.dll
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\refint\AdapterAndFacadePatterns.dll
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.pdb
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\AdapterAndFacadePatterns.genruntimeconfig.cache
+D:\Git\HeadFirstDesignPatterns\AdapterAndFacadePatterns\obj\Debug\net6.0\ref\AdapterAndFacadePatterns.dll

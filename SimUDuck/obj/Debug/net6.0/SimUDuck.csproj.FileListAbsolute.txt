@@ -1,0 +1,15 @@
+D:\Git\HeadFirstDesignPatterns\SimUDuck\bin\Debug\net6.0\SimUDuck.exe
+D:\Git\HeadFirstDesignPatterns\SimUDuck\bin\Debug\net6.0\SimUDuck.deps.json
+D:\Git\HeadFirstDesignPatterns\SimUDuck\bin\Debug\net6.0\SimUDuck.runtimeconfig.json
+D:\Git\HeadFirstDesignPatterns\SimUDuck\bin\Debug\net6.0\SimUDuck.dll
+D:\Git\HeadFirstDesignPatterns\SimUDuck\bin\Debug\net6.0\SimUDuck.pdb
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.csproj.AssemblyReference.cache
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.AssemblyInfoInputs.cache
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.AssemblyInfo.cs
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.csproj.CoreCompileInputs.cache
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.dll
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\refint\SimUDuck.dll
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.pdb
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\SimUDuck.genruntimeconfig.cache
+D:\Git\HeadFirstDesignPatterns\SimUDuck\obj\Debug\net6.0\ref\SimUDuck.dll

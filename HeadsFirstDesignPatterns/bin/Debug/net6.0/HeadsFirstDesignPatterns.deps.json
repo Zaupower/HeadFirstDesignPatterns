@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HeadsFirstDesignPatterns/1.0.0": {
+        "dependencies": {
+          "SimUDuck": "1.0.0"
+        },
+        "runtime": {
+          "HeadsFirstDesignPatterns.dll": {}
+        }
+      },
+      "SimUDuck/1.0.0": {
+        "runtime": {
+          "SimUDuck.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeadsFirstDesignPatterns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimUDuck/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
