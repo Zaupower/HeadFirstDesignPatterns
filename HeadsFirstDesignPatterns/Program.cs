@@ -22,5 +22,10 @@ internal class Program
 
         #endregion
 
+        #region ObserverPattern - Weather-O-Ram
+        //Description of Observer Pattern
+        // 1
+        #endregion
+
     }
 }
