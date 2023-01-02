@@ -9,6 +9,9 @@ namespace ObserverPattern
 {
     public class WeatherData : IObservable<IWeatherValues>
     {
+        private static Lazy<WeatherData> _instance = new Lazy<WeatherData>(() => new WeatherData());
+        public static WeatherData Instance => _instance.Value;
+
         private List<IObserver<IWeatherValues>> _observers;
         private IWeatherValues _weatherValues;
 
@@ -33,12 +36,9 @@ namespace ObserverPattern
             return _weatherValues;
         }
 
-        public void measurementsChanged()
+        public void measurementsChanged(WeatherValues values)
         {
-            _weatherValues = new WeatherValues();
-            _weatherValues.SetPressure(10);
-            _weatherValues.SetTemperature(10);
-            _weatherValues.SetHumidity(10);
+            _weatherValues = values;
 
             NotifyAllObserversAboutNewWeatherData();
         }

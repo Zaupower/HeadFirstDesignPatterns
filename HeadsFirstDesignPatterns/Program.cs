@@ -1,7 +1,10 @@
-﻿using SimUDuck;
+﻿using ObserverPattern;
+using ObserverPattern.Interfaces;
+using SimUDuck;
 using SimUDuck.FlyTypes;
 using SimUDuck.QuackTypes;
 using StrategyPattern;
+using System.Security.Cryptography.X509Certificates;
 
 internal class Program
 {
@@ -25,6 +28,11 @@ internal class Program
         #region ObserverPattern - Weather-O-Ram
         //Description of Observer Pattern
         // 1
+
+        WeatherData weatherDataObserver = WeatherData.Instance;
+        CurrentConditionsDisplay displayElement = new CurrentConditionsDisplay();
+
+        weatherDataObserver.Subscribe(displayElement);
         #endregion
 
     }

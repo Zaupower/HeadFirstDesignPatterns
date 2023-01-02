@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj" />
     <ProjectReference Include="..\SimUDuck\StrategyPattern.csproj" />
   </ItemGroup>
 

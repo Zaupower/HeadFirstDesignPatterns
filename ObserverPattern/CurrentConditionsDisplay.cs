@@ -26,7 +26,10 @@ namespace ObserverPattern
 
         public void OnNext(IWeatherValues value)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("New Weather Info received");
+            Console.WriteLine("Pressure: "+value.GetPressure());
+            Console.WriteLine("Humidity: " + value.GetHumidity());
+            Console.WriteLine("Temperature: " + value.GetTemperature());
         }
     }
 }

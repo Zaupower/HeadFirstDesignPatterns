@@ -7,7 +7,7 @@ using ObserverPattern.Interfaces;
 
 namespace ObserverPattern
 {
-    internal class WeatherValues : IWeatherValues
+    public class WeatherValues : IWeatherValues
     {
         public float temperature { get; set; }
         public float humidity { get; set; }
