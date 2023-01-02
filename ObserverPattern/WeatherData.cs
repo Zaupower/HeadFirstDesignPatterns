@@ -10,6 +10,7 @@ namespace ObserverPattern
     public class WeatherData : IObservable<IWeatherValues>
     {
         private static Lazy<WeatherData> _instance = new Lazy<WeatherData>(() => new WeatherData());
+        
         public static WeatherData Instance => _instance.Value;
 
         private List<IObserver<IWeatherValues>> _observers;

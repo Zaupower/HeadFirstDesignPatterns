@@ -30,33 +30,31 @@ internal class Program
         // 1
 
         WeatherData weatherDataObserver = WeatherData.Instance;
-        CurrentConditionsDisplay displayElement = new CurrentConditionsDisplay();
+        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay();
+        ForecastDisplay forecast = new ForecastDisplay();
         WeatherValues weatherValues = new WeatherValues();
         float formalValue = 0;
         weatherValues.pressure = formalValue;
         weatherValues.temperature = formalValue;
         weatherValues.humidity = formalValue;
-        weatherDataObserver.Subscribe(displayElement);
 
+        //weatherDataObserver.Subscribe(currentConditionsDisplay);
+        //weatherDataObserver.Subscribe(forecast);
+
+        forecast.Subscribe(weatherDataObserver);
+        currentConditionsDisplay.Subscribe(weatherDataObserver);
         while (true)
         {
-            Console.WriteLine("Choose 1");
-            string input = Console.ReadLine();
-            if (input.Equals("1"))
+            Console.WriteLine("Mighty GOOD Input the Weather!");
+            int input = Convert.ToInt32(Console.ReadLine());    
+            if (input == 0)
             {
-                formalValue += 1;
-                weatherValues.pressure = formalValue;
-                weatherValues.temperature = formalValue;
-                weatherValues.humidity = formalValue;
-                weatherDataObserver.measurementsChanged(weatherValues);
-            }else if (input.Equals("2"))
-            {
-                formalValue += 2;
-                weatherValues.pressure = formalValue;
-                weatherValues.temperature = formalValue;
-                weatherValues.humidity = formalValue;
-                weatherDataObserver.measurementsChanged(weatherValues);
+                forecast.Unsubscribe();
             }
+                weatherValues.pressure = input;
+                weatherValues.temperature = input;
+                weatherValues.humidity = input;
+                weatherDataObserver.measurementsChanged(weatherValues);            
         }
         #endregion
 

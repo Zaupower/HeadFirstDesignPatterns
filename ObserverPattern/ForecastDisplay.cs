@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern
 {
-    public class CurrentConditionsDisplay : IObserver<IWeatherValues>, IDisplayElement
+    public class ForecastDisplay : IObserver<IWeatherValues>, IDisplayElement
     {
-        private IDisposable cancellation;
+        private IDisposable _cancellation;
 
         public virtual void Subscribe(WeatherData provider)
         {
-            cancellation = provider.Subscribe(this);
+            _cancellation = provider.Subscribe(this);
         }
         public void Display()
         {
@@ -22,7 +22,7 @@ namespace ObserverPattern
 
         public virtual void Unsubscribe()
         {
-            cancellation.Dispose();
+            _cancellation.Dispose();
         }
         public void OnCompleted()
         {
@@ -36,7 +36,7 @@ namespace ObserverPattern
 
         public void OnNext(IWeatherValues value)
         {
-            Console.WriteLine("CurrentConditionsDisplay New Weather Info received");
+            Console.WriteLine("Forecast New Weather Info received");
             Console.WriteLine("Pressure: "+value.GetPressure());
             Console.WriteLine("Humidity: " + value.GetHumidity());
             Console.WriteLine("Temperature: " + value.GetTemperature());
