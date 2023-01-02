@@ -31,8 +31,33 @@ internal class Program
 
         WeatherData weatherDataObserver = WeatherData.Instance;
         CurrentConditionsDisplay displayElement = new CurrentConditionsDisplay();
-
+        WeatherValues weatherValues = new WeatherValues();
+        float formalValue = 0;
+        weatherValues.pressure = formalValue;
+        weatherValues.temperature = formalValue;
+        weatherValues.humidity = formalValue;
         weatherDataObserver.Subscribe(displayElement);
+
+        while (true)
+        {
+            Console.WriteLine("Choose 1");
+            string input = Console.ReadLine();
+            if (input.Equals("1"))
+            {
+                formalValue += 1;
+                weatherValues.pressure = formalValue;
+                weatherValues.temperature = formalValue;
+                weatherValues.humidity = formalValue;
+                weatherDataObserver.measurementsChanged(weatherValues);
+            }else if (input.Equals("2"))
+            {
+                formalValue += 2;
+                weatherValues.pressure = formalValue;
+                weatherValues.temperature = formalValue;
+                weatherValues.humidity = formalValue;
+                weatherDataObserver.measurementsChanged(weatherValues);
+            }
+        }
         #endregion
 
     }

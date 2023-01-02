@@ -19,3 +19,8 @@ D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\Strateg
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.exe
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.dll
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.pdb
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\ObserverPattern.deps.json
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\ObserverPattern.runtimeconfig.json
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\ObserverPattern.exe
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\ObserverPattern.dll
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\ObserverPattern.pdb

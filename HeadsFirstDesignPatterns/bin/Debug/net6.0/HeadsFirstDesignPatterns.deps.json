@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "HeadsFirstDesignPatterns/1.0.0": {
         "dependencies": {
+          "ObserverPattern": "1.0.0",
           "StrategyPattern": "1.0.0"
         },
         "runtime": {
           "HeadsFirstDesignPatterns.dll": {}
+        }
+      },
+      "ObserverPattern/1.0.0": {
+        "runtime": {
+          "ObserverPattern.dll": {}
         }
       },
       "StrategyPattern/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "HeadsFirstDesignPatterns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ObserverPattern/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
