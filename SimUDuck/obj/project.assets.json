@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\SimUDuck.csproj",
-      "projectName": "SimUDuck",
-      "projectPath": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\SimUDuck.csproj",
+      "projectUniqueName": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\StrategyPattern.csproj",
+      "projectName": "StrategyPattern",
+      "projectPath": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\StrategyPattern.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
       "outputPath": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\obj\\",
       "projectStyle": "PackageReference",

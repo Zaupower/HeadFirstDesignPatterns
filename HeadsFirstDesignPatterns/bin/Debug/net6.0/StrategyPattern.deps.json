@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SimUDuck/1.0.0": {
+      "StrategyPattern/1.0.0": {
         "runtime": {
-          "SimUDuck.dll": {}
+          "StrategyPattern.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SimUDuck/1.0.0": {
+    "StrategyPattern/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

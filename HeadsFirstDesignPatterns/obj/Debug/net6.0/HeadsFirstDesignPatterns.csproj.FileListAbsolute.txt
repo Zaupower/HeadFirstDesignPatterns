@@ -13,9 +13,9 @@ D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\obj\Debug\net6.0\refint\
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\obj\Debug\net6.0\HeadsFirstDesignPatterns.pdb
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\obj\Debug\net6.0\HeadsFirstDesignPatterns.genruntimeconfig.cache
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\obj\Debug\net6.0\ref\HeadsFirstDesignPatterns.dll
-D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\SimUDuck.deps.json
-D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\SimUDuck.runtimeconfig.json
-D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\SimUDuck.exe
-D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\SimUDuck.dll
-D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\SimUDuck.pdb
 D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\obj\Debug\net6.0\HeadsFirstDesignPatterns.csproj.CopyComplete
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.deps.json
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.runtimeconfig.json
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.exe
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.dll
+D:\Git\HeadFirstDesignPatterns\HeadsFirstDesignPatterns\bin\Debug\net6.0\StrategyPattern.pdb

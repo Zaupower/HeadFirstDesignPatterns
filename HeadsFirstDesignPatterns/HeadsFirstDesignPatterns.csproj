@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimUDuck\SimUDuck.csproj" />
+    <ProjectReference Include="..\SimUDuck\StrategyPattern.csproj" />
   </ItemGroup>
 
 </Project>

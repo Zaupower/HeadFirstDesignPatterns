@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PofXg3ZOP9nRpI8lvWuyfIGrO7rP86cymUmpd3fmGWFMroJYXECnM2wyzlqLL3zQosmYpjRr6vAxWljNfDyw9A==",
+  "dgSpecHash": "jDwckToOMct3Y8H0GkXw4KpRhfBrRGssRmS3e+IPXko+ibBkJRHTLpq9uGIec+UEfcIEjNkfwwy7Xd1NncVtnQ==",
   "success": true,
-  "projectFilePath": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\SimUDuck.csproj",
+  "projectFilePath": "D:\\Git\\HeadFirstDesignPatterns\\SimUDuck\\StrategyPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

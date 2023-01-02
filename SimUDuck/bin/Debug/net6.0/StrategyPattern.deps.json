@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "HeadsFirstDesignPatterns/1.0.0": {
-        "dependencies": {
-          "StrategyPattern": "1.0.0"
-        },
-        "runtime": {
-          "HeadsFirstDesignPatterns.dll": {}
-        }
-      },
       "StrategyPattern/1.0.0": {
         "runtime": {
           "StrategyPattern.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "HeadsFirstDesignPatterns/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "StrategyPattern/1.0.0": {
       "type": "project",
       "serviceable": false,

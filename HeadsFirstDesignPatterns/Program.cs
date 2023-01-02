@@ -1,19 +1,25 @@
 ﻿using SimUDuck;
 using SimUDuck.FlyTypes;
 using SimUDuck.QuackTypes;
+using StrategyPattern;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        #region SimUDuck
+        #region StrategyPattern - SimUDuck
+        //Description of Strategy Pattern 
+        //This Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+        //Strategy lets the algorithm vary independently from clients that use it.(In this case let Client be Duck child classes, like WoodDuck)
+
         Console.WriteLine("Wood Duck");
         FlyNoWay flyNoWay = new FlyNoWay();
         MuteQuack muteQuack = new MuteQuack();
-        Duck duck = new Duck(flyNoWay, muteQuack);
+        Duck woodDuck = new WoodDuck(flyNoWay, muteQuack);
 
-        duck.performQuack();
-        duck.performFly();
+        woodDuck.performQuack();
+        woodDuck.performFly();
+
         #endregion
 
     }
