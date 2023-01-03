@@ -49,6 +49,7 @@ internal class Program
             int input = Convert.ToInt32(Console.ReadLine());    
             if (input == 0)
             {
+                //Test unsubcribe
                 forecast.Unsubscribe();
             }
                 weatherValues.pressure = input;
