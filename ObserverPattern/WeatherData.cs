@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern
 {
-    public class WeatherData : IObservable<IWeatherValues>
+    public class WeatherData<T> : IObservable<T>
     {
-        private static Lazy<WeatherData> _instance = new Lazy<WeatherData>(() => new WeatherData());
+        private static Lazy<WeatherData<T>> _instance = new Lazy<WeatherData<T>>(() => new WeatherData<T>());
         
-        public static WeatherData Instance => _instance.Value;
+        public static WeatherData<T> Instance => _instance.Value;
 
-        private List<IObserver<IWeatherValues>> _observers;
-        private IWeatherValues _weatherValues;
+        private List<IObserver<T>> _observers;
+        private T _weatherValues;
 
         public WeatherData()
         {
-            _observers = new List<IObserver<IWeatherValues>>();
+            _observers = new List<IObserver<T>>();
         }
 
-        public IDisposable Subscribe(IObserver<IWeatherValues> observer)
+        public IDisposable Subscribe(IObserver<T> observer)
         {
             if (!_observers.Contains(observer))
             {
@@ -29,15 +29,15 @@ namespace ObserverPattern
                 //Update observer added 
                 //foreach(var item in )
             }
-            return new Unsubscriber<IWeatherValues>(_observers, observer);
+            return new Unsubscriber<T>(_observers, observer);
         }
 
-        public IWeatherValues Get_weatherValues()
+        public T Get_weatherValues()
         {
             return _weatherValues;
         }
 
-        public void measurementsChanged(WeatherValues values)
+        public void measurementsChanged(T values)
         {
             _weatherValues = values;
 
@@ -46,7 +46,7 @@ namespace ObserverPattern
         //Notify All Observers about new transaction
         private void NotifyAllObserversAboutNewWeatherData()
         {
-            foreach (IObserver<IWeatherValues> observer in _observers)
+            foreach (IObserver<T> observer in _observers)
             {
                 observer.OnNext(_weatherValues);
             }

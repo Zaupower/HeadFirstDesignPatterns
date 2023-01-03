@@ -3,44 +3,52 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ObserverPattern.Helper;
 using ObserverPattern.Interfaces;
 
-namespace ObserverPattern
+namespace ObserverPattern.WeatherDataValues
 {
     public class WeatherValues : IWeatherValues
     {
-        public float temperature { get; set; }
-        public float humidity { get; set; }
-        public float pressure { get; set; }
+        private float _temperature;
+
+        private float _humidity;
+
+        private float _pressure;
 
         public float GetHumidity()
         {
-            return humidity;
+            return _humidity;
         }
 
         public float GetPressure()
         {
-            return pressure;
+            return _pressure;
         }
 
         public float GetTemperature()
         {
-            return temperature;
+            return _temperature;
         }
 
         public void SetHumidity(float humidity)
         {
-            this.humidity = humidity;
+            _humidity = humidity;
         }
 
         public void SetPressure(float pressure)
         {
-            this.pressure = pressure;  
+            _pressure = pressure;
         }
 
         public void SetTemperature(float temp)
         {
-            this.temperature = temp;
+            _temperature = temp;
+        }
+
+        public override string ToString()
+        {
+            return "Humidity: "+GetHumidity()+"\n" +"Pressure: "+ GetPressure()+"\n"+ "Temperature: "+ GetTemperature()+"\n";
         }
     }
 }

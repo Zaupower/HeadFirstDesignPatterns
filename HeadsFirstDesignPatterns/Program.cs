@@ -1,5 +1,7 @@
 ﻿using ObserverPattern;
+using ObserverPattern.Displays;
 using ObserverPattern.Interfaces;
+using ObserverPattern.WeatherDataValues;
 using SimUDuck;
 using SimUDuck.FlyTypes;
 using SimUDuck.QuackTypes;
@@ -29,14 +31,15 @@ internal class Program
         //Description of Observer Pattern
         // 1
 
-        WeatherData weatherDataObserver = WeatherData.Instance;
-        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay();
-        ForecastDisplay forecast = new ForecastDisplay();
+        WeatherData<IWeatherValues> weatherDataObserver = WeatherData<IWeatherValues>.Instance;
+        CurrentConditionsDisplay<IWeatherValues> currentConditionsDisplay = new CurrentConditionsDisplay<IWeatherValues>();
+        ForecastDisplay<IWeatherValues> forecast = new ForecastDisplay<IWeatherValues>();
         WeatherValues weatherValues = new WeatherValues();
+
         float formalValue = 0;
-        weatherValues.pressure = formalValue;
-        weatherValues.temperature = formalValue;
-        weatherValues.humidity = formalValue;
+        weatherValues.SetPressure(formalValue);
+        weatherValues.SetTemperature(formalValue);
+        weatherValues.SetHumidity(formalValue);
 
         //weatherDataObserver.Subscribe(currentConditionsDisplay);
         //weatherDataObserver.Subscribe(forecast);
@@ -51,11 +54,27 @@ internal class Program
             {
                 //Test unsubcribe
                 forecast.Unsubscribe();
+            }else if (input == 1)
+            {
+                var weatherWithIndex = new WeatherValuesWithHeatIndex();
+                weatherWithIndex.SetPressure(input);
+                weatherWithIndex.SetTemperature(input);
+                weatherWithIndex.SetHumidity(input);
+                weatherWithIndex.SetHeatIndex();
+                weatherDataObserver.measurementsChanged(weatherWithIndex);
             }
-                weatherValues.pressure = input;
-                weatherValues.temperature = input;
-                weatherValues.humidity = input;
-                weatherDataObserver.measurementsChanged(weatherValues);            
+            else if (input == 69)
+            {
+                forecast.Subscribe(weatherDataObserver);
+            }
+            else
+            {
+                weatherValues.SetPressure(input);
+                weatherValues.SetTemperature(input);
+                weatherValues.SetHumidity( input);
+                weatherDataObserver.measurementsChanged(weatherValues);      
+            }
+            
         }
         #endregion
 

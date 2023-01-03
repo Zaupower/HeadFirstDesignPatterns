@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern.Helper
 {
-    internal  static class WeatherCalculation
+    public  static class WeatherCalculation
     {
-        private static float computeHeatIndex(float t, float rh)
+        public static float computeHeatIndex(float t, float rh)
         {
             float index = (float)((16.923 + (0.185212 * t) + (5.37941 * rh) - (0.100254 * t * rh) +
                 (0.00941695 * (t * t)) + (0.00728898 * (rh * rh)) +

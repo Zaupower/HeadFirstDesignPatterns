@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObserverPattern
+namespace ObserverPattern.Displays
 {
-    public class CurrentConditionsDisplay : IObserver<IWeatherValues>, IDisplayElement
+    public class CurrentConditionsDisplay<T> : IObserver<T>, IDisplayElement
     {
         private IDisposable cancellation;
 
-        public virtual void Subscribe(WeatherData provider)
+        public virtual void Subscribe(WeatherData<T> provider)
         {
             cancellation = provider.Subscribe(this);
         }
@@ -34,13 +34,9 @@ namespace ObserverPattern
             throw new NotImplementedException();
         }
 
-        public void OnNext(IWeatherValues value)
+        public void OnNext(T value)
         {
-            Console.WriteLine("CurrentConditionsDisplay New Weather Info received");
-            Console.WriteLine("Pressure: "+value.GetPressure());
-            Console.WriteLine("Humidity: " + value.GetHumidity());
-            Console.WriteLine("Temperature: " + value.GetTemperature());
-            Console.WriteLine(" ");
+            Console.WriteLine(value.ToString());
         }
     }
 }
