@@ -23,6 +23,5 @@ namespace DecoratorPattern.CondimentDecorators
         {
             return Beverage.GetDescription();
         }
-
     }
 }
